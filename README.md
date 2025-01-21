@@ -1,0 +1,3 @@
+# F# Mutable Reference Unexpected Behavior
+
+This repository demonstrates an unexpected behavior when working with mutable references in F#.  The code in `bug.fs` showcases a scenario where modifying a mutable reference through a dereferenced pointer doesn't behave as one might initially expect. The solution, found in `bugSolution.fs`, offers a clarification and safer approach.  The unexpected behavior is explained in the comments within `bug.fs`.
